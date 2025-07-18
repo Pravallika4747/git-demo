@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUS PASS APPLICATION</title>
+    <style>
+    img{
+        display:block;
+        margin:auto;
+        width:80px;
+        height:80px;
+    }
+                .center-input{
+                    display: block;
+                    mzrgin:0 auto;
+                    padding: 10px;
+                    width:200px;
+                }
+            
+    </style>
+    </head>
+    <body>
+        <img src="https://www.livelaw.in/h-upload/2023/01/25/455671-telangana-state-road-transport-carporation-tsrtc-logo.webp" alt="logo">
+        <h4 style="text-align:center;">TELANGANA STATE ROAD TRANSPORT CORPORATION</h4>
+        <h4 style="text-align: center;">GENERAL BUS PASS APPLICATION</h4>
+            <fieldset width ="300px" height="200px">
+                <legend>Application Details</legend>
+                <label>name *</label> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label>Father's/Guardian's Name *</label>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" required><br>
+                <label>Date of Birth *</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;<input type="date" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;<label>Gender *</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;<input type="radio" required>
+                <label for="gender">Female</label>&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" ><label for="gender">Male</label><br>
+                <label>Age As On:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" style="width:30px" placeholder="Years">&nbsp;&nbsp;
+                <input type="text" style="width:30px" placeholder="Months">&nbsp;&nbsp;<input type="text" style="width:30px" placeholder="Days">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label>Adhaar No *</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="tel"><br>
+                <label>Whatsapp No *</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="tel"  required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label>Email Id *</label> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="email"  required><br>
+                <label>Photo *</label> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="file" required><br>
+            </fieldset>
+            <fieldset>
+                <legend>Residential Address Details</legend>
+                <label>Applicant's Address</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="textarea" maxlength="20" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label>District *</label>
+                <select>
+                    <option>--select-- </option>
+                <option>Hyderabad</option>
+               </select><br>
+               <label>Mandal *</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <select>
+                    <option>--select-- </option>
+                    <option>Hyderabad</option>
+                  </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <label>Village *</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <select><option>--select--</option>
+                    <option>Hyderabad</option>
+                  </select><br>
+                  <label>Pincode *</label><input type="tel">
+            </fieldset>
+            <fieldset>
+                <legend>Pass Type Details</legend>
+                <label>City *</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <select><option>--select--</option>
+                <option>Hyderabad</option></select><br>
+                <label>Pass Type *</label>
+                <select><option>--select--</option>
+                    <option>GREATER PASS</option>
+                    <option>GENERAL ORDINARY ROUTE PASS MTLY</option>
+                    <option>GENERAL METRO EXPRESS ROUTE PASS MTLY</option>
+                    <option>ORDINARY PASS</option>
+                        <option>METRO EXPRESS PASS</option>
+                        <option>METRO DELUXE PASS</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Mode of Payment & Pass Collection</legend>
+                <label>Payment Mode *</label>
+                <select><option>Select Payment Mode</option>
+                <option>Payment at Counter</option>
+            <option>UPI Payment</option></select><br>
+            <label>Pass Delivery Mode</label>
+            <select><option>Select Pass Delivery Mode</option>
+            <option>At Counter</option>
+            <option>In Post</option>
+            </select><br>
+            <label>Cener at which you want to collect pass *</label>
+            <select>
+                <option>--select--</option>
+             <option>RTC ABIDS--HYD</option>
+              <option>RTC CHARMINAR--HYD</option>
+               <option>RTC SECUNDRABAD--HYD</option>
+                <option>RTC KPHB--HYD</option>
+                 <option>RTC AMEERPET--HYD</option>
+                  <option>RTC BHEL--HYD</option>
+                   <option>RTC LB NAGAR--HYD</option>
+                    <option>RTC SR NAGAR--HYD</option>
+                     <option>RTC UPPAL--HYD</option>
+                      <option>RTC KOTI--HYD</option>
+                       <option>RTC DILSHUKNAGAR--HYD</option>
+            </select>
+            </fieldset>
+            <img src="https://tse4.mm.bing.net/th/id/OIP.czlrhOA1lBeAMBl2TDb5sQHaDJ?pid=Api&P=0&h=180"  
+            src="https://tse4.mm.bing.net/th/id/OIP.8zkJtuRk23IddxC8V4aP-gHaHu?pid=Api&P=0&h=180"><br><br>
+           <center>
+            <input type="text" placeholder="Enter Captcha" class="center-input" required><br><br>
+            <input type="submit" value="submit" class="center-input">
+            </center>
+        
+</body>
+</html>
